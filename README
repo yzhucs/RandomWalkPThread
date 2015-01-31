@@ -1,0 +1,14 @@
+Just type "make", you can build my code and the executable is "random_walk".
+
+Please use the command line to run the code
+	
+	./random_walk input_file output_file num_step num_threads
+
+where:
+	input_file - the input unweighted web graph file is in coordinate format, i.e., each line of the input file should be in the format of
+	<j> <i>
+	where j is the destination node, i is the source node. The node numbers are continuous intergers starting from 0.
+	output_file - the output file saving the execution time, and the top 100 node ids, say results.16.
+	num_step - number of random walk steps, say 10.
+	num_threads - number of threads, say 16.
+
